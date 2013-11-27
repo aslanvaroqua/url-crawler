@@ -38,16 +38,3 @@ object RedisFactory {
 
 }
 
-object WishcloudsDBObject {
-  RegisterJodaTimeConversionHelpers()
-
-
-  def apply(elems: DBObject): MongoDBObject =
-    (if (!elems.contains("updated")) MongoDBObject("updated" -> DateTime.now.plusHours(-4)) else MongoDBObject()) ++ elems
-
-  def apply[A <: String, B](elems: List[(A, B)]): MongoDBObject =
-    MongoDBObject("updated" -> DateTime.now.plusHours(-4) :: elems)
-
-  def apply[A <: String, B](elems: (A, B)*): MongoDBObject =
-    com.mongodb.casbah.commons.MongoDBObject("updated" -> DateTime.now.plusHours(-4) :: elems.toList)
-}
