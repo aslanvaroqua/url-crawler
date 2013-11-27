@@ -8,4 +8,3 @@ import com.mongodb.casbah.MongoURI
 
 
 
-val uri = MongoURI("api-beta.lion.com:27017", 54.204.5.124:27017"")
