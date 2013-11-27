@@ -7,7 +7,7 @@ import scala.collection.JavaConverters._
 
 /**
  * Created with IntelliJ IDEA.
- * User: miguelaiglesias
+ * User: avaroqua
  * Date: 7/26/13
  * Time: 4:39 PM
  */

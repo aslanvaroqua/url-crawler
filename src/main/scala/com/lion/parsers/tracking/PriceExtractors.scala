@@ -3,7 +3,7 @@ package util.parsers.tracking
 import scala.util.matching.Regex
 
 /**
- * User: miguelaiglesias
+ * User: avaroqua
  * Date: 8/30/13
  * Time: 9:38 AM
  */

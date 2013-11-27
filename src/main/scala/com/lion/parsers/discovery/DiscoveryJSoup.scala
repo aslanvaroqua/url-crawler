@@ -8,7 +8,7 @@ import util.parsers.discovery.LinksQuery
 
 /**
  * Created with IntelliJ IDEA.
- * User: miguelaiglesias
+ * User: avaroqua
  * Date: 7/26/13
  * Time: 4:39 PM
  */
