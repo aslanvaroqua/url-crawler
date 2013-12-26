@@ -1,7 +1,7 @@
 package com.lion.persistance
 
 /**
- * User: Maxim Matvienko
+ * User: ASslan 
  * Date: 5/31/13
  * Time: 11:45 PM
  */
